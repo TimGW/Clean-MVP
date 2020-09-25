@@ -1,0 +1,9 @@
+package com.timgortworst.mvpclean.domain.model.state
+
+sealed class State<out T> {
+    data class Success<out T>(val data: T) : State<T>()
+    data class Error(val errorEntity: ErrorEntity) : State<Nothing>()
+    object Loading : State<Nothing>()
+}
+
+
