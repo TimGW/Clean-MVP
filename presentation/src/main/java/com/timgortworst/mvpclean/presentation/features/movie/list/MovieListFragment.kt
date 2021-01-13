@@ -1,4 +1,4 @@
-package com.timgortworst.mvpclean.presentation.features.movie.view
+package com.timgortworst.mvpclean.presentation.features.movie.list
 
 import android.content.Context
 import android.os.Bundle
@@ -12,8 +12,6 @@ import androidx.recyclerview.widget.GridLayoutManager
 import com.timgortworst.cleanarchitecture.presentation.R
 import com.timgortworst.mvpclean.domain.model.movie.Movie
 import com.timgortworst.mvpclean.presentation.extension.snackbar
-import com.timgortworst.mvpclean.presentation.features.movie.adapter.MovieListAdapter
-import com.timgortworst.mvpclean.presentation.features.movie.presenter.MovieListPresenter
 import dagger.android.support.AndroidSupportInjection
 import kotlinx.android.synthetic.main.fragment_movie_list.*
 import javax.inject.Inject

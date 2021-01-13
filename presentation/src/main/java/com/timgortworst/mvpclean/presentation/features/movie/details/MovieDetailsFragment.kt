@@ -1,4 +1,4 @@
-package com.timgortworst.mvpclean.presentation.features.movie.view
+package com.timgortworst.mvpclean.presentation.features.movie.details
 
 import android.content.Context
 import android.os.Bundle
@@ -11,7 +11,6 @@ import com.timgortworst.cleanarchitecture.presentation.R
 import com.timgortworst.mvpclean.data.BuildConfig.BASE_URL_IMAGES
 import com.timgortworst.mvpclean.data.BuildConfig.BASE_URL_IMAGES_HIGH_RES
 import com.timgortworst.mvpclean.domain.model.movie.MovieDetails
-import com.timgortworst.mvpclean.presentation.features.movie.presenter.MovieDetailsPresenter
 import dagger.android.support.AndroidSupportInjection
 import kotlinx.android.synthetic.main.fragment_movie_details.*
 import javax.inject.Inject

@@ -3,7 +3,7 @@ package com.timgortworst.mvpclean.presentation.features.splash
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.timgortworst.cleanarchitecture.presentation.R
-import com.timgortworst.mvpclean.presentation.features.movie.view.MovieActivity
+import com.timgortworst.mvpclean.presentation.features.movie.MovieActivity
 
 class SplashActivity : AppCompatActivity() {
 

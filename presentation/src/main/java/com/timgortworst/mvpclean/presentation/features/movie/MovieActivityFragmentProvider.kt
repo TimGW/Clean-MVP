@@ -1,7 +1,9 @@
-package com.timgortworst.mvpclean.presentation.features.movie.di
+package com.timgortworst.mvpclean.presentation.features.movie
 
-import com.timgortworst.mvpclean.presentation.features.movie.view.MovieDetailsFragment
-import com.timgortworst.mvpclean.presentation.features.movie.view.MovieListFragment
+import com.timgortworst.mvpclean.presentation.features.movie.details.MovieDetailsModule
+import com.timgortworst.mvpclean.presentation.features.movie.details.MovieDetailsFragment
+import com.timgortworst.mvpclean.presentation.features.movie.list.MovieListFragment
+import com.timgortworst.mvpclean.presentation.features.movie.list.MovieListModule
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 

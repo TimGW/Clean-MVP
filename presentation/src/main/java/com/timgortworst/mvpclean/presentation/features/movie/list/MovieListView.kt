@@ -1,4 +1,4 @@
-package com.timgortworst.mvpclean.presentation.features.movie.view
+package com.timgortworst.mvpclean.presentation.features.movie.list
 
 import com.timgortworst.mvpclean.domain.model.movie.Movie
 

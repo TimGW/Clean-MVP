@@ -1,4 +1,4 @@
-package com.timgortworst.mvpclean.presentation.features.movie.view
+package com.timgortworst.mvpclean.presentation.features.movie
 
 import android.content.Context
 import android.content.Intent
@@ -8,6 +8,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.timgortworst.cleanarchitecture.presentation.R
 import com.timgortworst.mvpclean.domain.model.movie.Movie
+import com.timgortworst.mvpclean.presentation.features.movie.details.MovieDetailsFragment
+import com.timgortworst.mvpclean.presentation.features.movie.list.MovieListFragment
 import dagger.android.AndroidInjection
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector

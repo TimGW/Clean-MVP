@@ -1,11 +1,10 @@
-package com.timgortworst.mvpclean.presentation.features.movie.presenter
+package com.timgortworst.mvpclean.presentation.features.movie.list
 
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import com.timgortworst.mvpclean.domain.model.state.State
 import com.timgortworst.mvpclean.domain.usecase.movielist.GetMoviesUseCase
-import com.timgortworst.mvpclean.presentation.extension.cancelIfActive
-import com.timgortworst.mvpclean.presentation.features.movie.view.MovieListView
+import com.timgortworst.mvpclean.presentation.features.movie.list.MovieListView
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

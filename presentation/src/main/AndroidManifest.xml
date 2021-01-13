@@ -22,7 +22,7 @@ package="com.timgortworst.cleanarchitecture.presentation">
         </intent-filter>
     </activity>
 
-    <activity android:name="com.timgortworst.mvpclean.presentation.features.movie.view.MovieActivity" />
+    <activity android:name="com.timgortworst.mvpclean.presentation.features.movie.MovieActivity" />
 
 </application>
 

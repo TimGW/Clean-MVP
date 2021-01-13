@@ -1,9 +1,9 @@
-package com.timgortworst.mvpclean.presentation.features.movie.di
+package com.timgortworst.mvpclean.presentation.features.movie.list
 
 import com.timgortworst.mvpclean.domain.usecase.movielist.GetMoviesUseCase
-import com.timgortworst.mvpclean.presentation.features.movie.presenter.MovieListPresenter
-import com.timgortworst.mvpclean.presentation.features.movie.view.MovieListFragment
-import com.timgortworst.mvpclean.presentation.features.movie.view.MovieListView
+import com.timgortworst.mvpclean.presentation.features.movie.list.MovieListPresenter
+import com.timgortworst.mvpclean.presentation.features.movie.list.MovieListFragment
+import com.timgortworst.mvpclean.presentation.features.movie.list.MovieListView
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
