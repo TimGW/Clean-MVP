@@ -4,6 +4,7 @@ import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import com.timgortworst.mvpclean.domain.model.state.State
 import com.timgortworst.mvpclean.domain.usecase.movielist.GetMoviesUseCase
+import com.timgortworst.mvpclean.presentation.extension.cancelIfActive
 import com.timgortworst.mvpclean.presentation.features.movie.list.MovieListView
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -32,7 +33,7 @@ class MovieListPresenter(
     }
 
     override fun onDestroy(owner: LifecycleOwner) {
-        job.cancel()
+        job.cancelIfActive()
     }
 
     fun fetchMovies() {

@@ -86,12 +86,12 @@ class MovieListFragment : Fragment(), MovieListView {
     }
 
     override fun showResult(data: List<Movie>) {
-        no_results.visibility = View.GONE
+        no_results?.visibility = View.GONE
         adapter.addMoviesToList(data.toMutableList())
     }
 
     override fun hideResult() {
-        no_results.visibility = View.VISIBLE
+        no_results?.visibility = View.VISIBLE
     }
 
     private fun setupMovieList() {

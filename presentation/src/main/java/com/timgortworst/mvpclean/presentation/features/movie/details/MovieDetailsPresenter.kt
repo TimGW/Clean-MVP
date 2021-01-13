@@ -32,12 +32,10 @@ class MovieDetailsPresenter(
     }
 
     override fun onDestroy(owner: LifecycleOwner) {
-        job.cancel()
+        job.cancelIfActive()
     }
 
     fun fetchMovieDetails(movieId: Int) {
-        job.cancelIfActive()
-
         job = launch {
             when (val res = getMovieDetailsUseCase.execute(GetMovieDetailsUseCaseImpl.Params(movieId))) {
                 State.Loading -> {
